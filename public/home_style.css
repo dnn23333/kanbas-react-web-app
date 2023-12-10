@@ -1,0 +1,30 @@
+.wd-home a {
+  color: red;
+  text-decoration: none;
+}
+
+.custom-btn {
+  white-space: nowrap;
+  padding: 10px;
+}
+.list-group {
+  display: block;
+  margin-left: 15px;
+}
+
+ul .list-group-item{
+  border-radius: 0;
+}
+li.list-group-item.list-group-item-secondary{
+  padding:8px;
+}
+
+
+
+.module-row{
+  display: block;
+  margin-top: 70px;
+}
+.col-custom{
+  width:90px;
+}

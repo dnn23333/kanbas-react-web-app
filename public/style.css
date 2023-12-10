@@ -1,0 +1,8 @@
+
+  /* CSS for white text color in the sidebar */
+.nav.flex-column a.nav-link {
+  color: white; /* Set the text color to white */
+}
+  .wd-align-middle{
+    display: flex; align-items: center; justify-content: center;
+  }

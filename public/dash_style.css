@@ -1,0 +1,13 @@
+
+body *{
+  font-family:Arial;
+  border:none;
+}
+.wd-dashboard{
+  border:none;
+  margin-left: 20px;
+}
+.wd-published-courses{
+  border:none;
+  margin-left: 40px;
+}

@@ -1,0 +1,10 @@
+ul.wd-assignment a {
+  color: black;
+  text-decoration: none;
+}
+
+ul.wd-assignment .list-group-item {
+  border-left: 15px solid;
+  border-left-color: green;
+  border-radius: 0;
+}
