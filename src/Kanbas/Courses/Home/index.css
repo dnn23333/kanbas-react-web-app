@@ -1,0 +1,24 @@
+.statusOptionLink {
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(208, 15, 15);
+  font-weight: 400;
+}
+
+.statusOptionList {
+  border-radius: 0px;
+}
+
+.statusEventLink {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(208, 15, 15);
+  text-align: center;
+  font-weight: 400;
+  height: 40px;
+}
+
+ul li {
+  font-size: 25px;
+}
