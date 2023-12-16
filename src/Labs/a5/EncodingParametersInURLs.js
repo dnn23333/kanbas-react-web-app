@@ -7,20 +7,20 @@ function EncodingParametersInURLs() {
   const [result, setResult] = useState(0);
   const fetchSum = async (a, b) => {
     const response = await axios.get(
-        `http://localhost:4000/a5/add/${a}/${b}`
+        `https://kanbas-node-server-app-09ey.onrender.com/a5/add/${a}/${b}`
     );
     setResult(response.data);
   };
   const fetchSubtraction = async (a, b) => {
     const response = await axios.get(
-        `http://localhost:4000/a5/subtract/${a}/${b}`
+        `https://kanbas-node-server-app-09ey.onrender.com/a5/subtract/${a}/${b}`
     );
     setResult(response.data);
   };
   const [welcome, setWelcome] = useState("");
   const fetchWelcome = async () => {
     const response = await axios.get(
-        `http://localhost:4000/a5/welcome`
+        `https://kanbas-node-server-app-09ey.onrender.com/a5/welcome`
     );
     setWelcome(response.data);
   };
@@ -67,26 +67,26 @@ function EncodingParametersInURLs() {
         </button>
         <h3>Path Parameters</h3>
         <a
-            href={ `http://localhost:4000/a5/add/${a}/${b}`}
+            href={ `https://kanbas-node-server-app-09ey.onrender.com/a5/add/${a}/${b}`}
             className="btn btn-primary"
         >
           Add {a} + {b}
         </a>
         <a
-            href={ `http://localhost:4000/a5/subtract/${a}/${b}`}
+            href={ `https://kanbas-node-server-app-09ey.onrender.com/a5/subtract/${a}/${b}`}
             className="btn btn-danger"
         >
           Substract {a} - {b}
         </a>
         <h3>Query Parameters</h3>
         <a
-            href={`https://localhost:4000/a5/calculator?operation=add&a=${a}&b=${b}`}
+            href={`https://kanbas-node-server-app-09ey.onrender.com/a5/calculator?operation=add&a=${a}&b=${b}`}
             className="btn btn-primary"
         >
           Add {a} + {b}
         </a>
         <a
-            href={`https://localhost:4000/a5/calculator?operation=subtract&a=${a}&b=${b}`}
+            href={`https://kanbas-node-server-app-09ey.onrender.com/a5/calculator?operation=subtract&a=${a}&b=${b}`}
             className="btn btn-danger"
         >
           Substract {a} - {b}

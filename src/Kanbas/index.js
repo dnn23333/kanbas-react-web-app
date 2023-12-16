@@ -11,7 +11,7 @@ import axios from "axios";
 
 function Kanbas() {
   const [courses, setCourses] = useState([]);
-  const URL = "http://localhost:4000/api/courses";
+  const URL = "https://kanbas-node-server-app-09ey.onrender.com/api/courses";
 
   const [course, setCourse] = useState({
     name: "New Course",      number: "New Number",
